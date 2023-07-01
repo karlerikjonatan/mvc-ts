@@ -1,0 +1,22 @@
+{
+  "name": "mvc-ts",
+  "version": "1.0.0",
+  "description": "This repository presents an implementation of the Model-View-Controller (MVC) pattern in TypeScript.",
+  "keywords": [
+    "mvc",
+    "typescript"
+  ],
+  "homepage": "https://github.com/karlerikjonatan/mvc-ts#readme",
+  "author": "Jonatan Pettersson <pettersson.jonatan@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlerikjonatan/mvc-ts.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/index.js"
+  },
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}
